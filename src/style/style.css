@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(../img/background.png);
+}
+
+.titulo {
+    color: #9b252ed0;
+}
+
+.sobre-gamora {
+    font-size: 14.5px;
+}
+
+.sobre-rocket {
+    font-size: 14px;
+}
+
+.card-peter {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 300px;
+    margin: 0;
+    position: relative;
+    background-color: #dbc7c77e;
+    border-radius: 20px;
+    box-shadow: 0px 35px 80px rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+}
+
+.card-peter:hover {
+    height: 400px;
+}
+
+.card-peter .img-box-peter {
+    position: absolute;
+    width: 250px;
+    height: auto;
+    top: 0px;
+    transition: 0.5s;
+}
+
+.card-peter:hover .img-box-peter {
+    top: -100px;
+    scale: 0.75;
+}
+
+.card-peter.img-box-peter img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-peter .content-peter {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    position: absolute;
+    top: 250px;
+    width: 100%;
+    padding: 0px 30px;
+    text-align: center;
+    height: 30px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.card-peter:hover .content-peter {
+    top: 130px;
+    height: 250px;
+}
+
+.card-peter .read-me {
+    background: linear-gradient(90deg, hsl(357, 44%, 51%), #e01616a8);
+    padding: 12px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+/* GAMORA */
+
+
+.card-gamora {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 300px;
+    position: relative;
+    background-color: #dbc7c77e;
+    border-radius: 20px;
+    box-shadow: 0px 35px 80px rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+}
+
+.card-gamora:hover {
+    height: 400px;
+}
+
+.card-gamora .img-box-gamora {
+    position: absolute;
+    width: 250px;
+    height: auto;
+    top: 0px;
+    transition: 0.5s;
+}
+
+.card-gamora:hover .img-box-gamora {
+    top: -100px;
+    scale: 0.75;
+}
+
+.card-gamora.img-box-gamora img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-gamora .content-gamora {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    position: absolute;
+    top: 250px;
+    width: 100%;
+    padding: 0px 30px;
+    text-align: center;
+    height: 30px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.card-gamora:hover .content-gamora {
+    top: 130px;
+    height: 250px;
+}
+
+.card-gamora .read-me {
+    background: linear-gradient(90deg, hsl(357, 44%, 51%), #e01616a8);
+    padding: 12px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+/* ROCKET */
+
+.card-rocket {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 300px;
+    position: relative;
+    background-color: #dbc7c77e;
+    border-radius: 20px;
+    box-shadow: 0px 35px 80px rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+}
+
+.card-rocket:hover {
+    height: 400px;
+}
+
+.card-rocket .img-box-rocket {
+    position: absolute;
+    width: 250px;
+    height: auto;
+    top: 0px;
+    transition: 0.5s;
+}
+
+.card-rocket:hover .img-box-rocket {
+    top: -110px;
+    scale: 0.75;
+}
+
+.card-rocket.img-box-rocket img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-rocket .content-rocket {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    position: absolute;
+    top: 250px;
+    width: 100%;
+    padding: 0px 30px;
+    text-align: center;
+    height: 30px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.card-rocket:hover .content-rocket {
+    top: 130px;
+    height: 250px;
+}
+
+.card-rocket .read-me {
+    background: linear-gradient(90deg, hsl(357, 44%, 51%), #e01616a8);
+    padding: 12px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+/* GROOT */
+
+.card-groot {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 300px;
+    position: relative;
+    background-color: #dbc7c77e;
+    border-radius: 20px;
+    box-shadow: 0px 35px 80px rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+}
+
+.card-groot:hover {
+    height: 400px;
+}
+
+.card-groot .img-box-groot {
+    position: absolute;
+    width: 250px;
+    height: auto;
+    top: 0px;
+    transition: 0.5s;
+}
+
+.card-groot:hover .img-box-groot {
+    top: -120px;
+    scale: 0.75;
+}
+
+.card-groot.img-box-groot img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-groot .content-groot {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    position: absolute;
+    top: 250px;
+    width: 100%;
+    padding: 0px 30px;
+    text-align: center;
+    height: 30px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.card-groot:hover .content-groot {
+    top: 130px;
+    height: 250px;
+}
+
+.card-groot .read-me {
+    background: linear-gradient(90deg, hsl(357, 44%, 51%), #e01616a8);
+    padding: 12px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+/* DRAX */
+
+.card-drax {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 300px;
+    position: relative;
+    background-color: #dbc7c77e;
+    border-radius: 20px;
+    box-shadow: 0px 35px 80px rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+}
+
+.card-drax:hover {
+    height: 400px;
+}
+
+.card-drax .img-box-drax {
+    position: absolute;
+    width: 250px;
+    height: auto;
+    top: 0px;
+    transition: 0.5s;
+}
+
+.card-drax:hover .img-box-drax {
+    top: -120px;
+    scale: 0.75;
+}
+
+.card-drax.img-box-drax img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-drax .content-drax {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    position: absolute;
+    top: 250px;
+    width: 100%;
+    padding: 0px 30px;
+    text-align: center;
+    height: 30px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.card-drax:hover .content-drax {
+    top: 130px;
+    height: 250px;
+}
+
+.card-drax .read-me {
+    background: linear-gradient(90deg, hsl(357, 44%, 51%), #e01616a8);
+    padding: 12px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 450px) {
+    body {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .card-peter:hover .img-box-peter {
+        top: -55px;
+        scale: 0.75;
+    }
+}
