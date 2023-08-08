@@ -6,7 +6,8 @@ Fiz um projeto simples, colocando os personagens de Guardiões da Galáxia e alg
 
 ## 🌑Informações do Personagem 📃 
 
-![Captura de tela 2023-08-08 191913](https://github.com/guiaugustoxy/guardioes-da-galaxia/assets/137638499/694c8add-d98d-4dce-b77d-2e3a44d880ab)
+![Minimalista Branco Seu Lembrete De História](https://github.com/guiaugustoxy/guardioes-da-galaxia/assets/137638499/be29b3a4-f799-4d24-912b-d3cc51f16868)
+
 
 
 ## 📟 Tecnologias
